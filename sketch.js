@@ -101,10 +101,10 @@ var dateTime=jsonresponse.datetime
 console.log(dateTime)
 var hour=dateTime.slice(11,13)
 if(hour>=06&&hour<=19){
-bg="sprites/bg2.png"
+bg="sprites/bg2.jpg"
 }
 else{
-bg="sprites/bg.png"
+bg="sprites/bg.jpg"
 }
 backgroundImg=loadImage(bg)
 }
